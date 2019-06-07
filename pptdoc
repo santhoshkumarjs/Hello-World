@@ -1,0 +1,17 @@
+Version Control
+---------------
+	Version control refers to a system that records changes to a file or set of files over time called the ‘versions’.
+	In other words, these versions will help you in tracking the changes in your codes/project and if necessary, undo those changes as well.
+	This feature of being able to compare, differentiate and revert changes between two versions of a particular project becomes really helpful when working on a larger project.
+	Larger projects mean more people working on the same code which increases the chances of conflicts. 
+	Using version control you can easily prevent these conflicts.
+https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup
+
+$git remote add origin ssh://git@example.com:1234/myRepo.git
+
+# this will now work as expected
+$git push origin master
+
+$git remote -v
+
+https://github.com/Kunena/Kunena-Forum/wiki/Create-a-new-branch-with-git-and-manage-branches
